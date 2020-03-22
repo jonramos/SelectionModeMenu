@@ -6,7 +6,7 @@ bl_info = {
     "name": "Select Mode Pie Menu",
     "author": "Jonathan Ramos",
     "version": (0, 0, 0, 1),
-    "description": "Creates a pie menu to mesh selection options. Press tilde (~) twice to open the menu",
+    "description": "Creates a pie menu to mesh selection options. Press Alt + Q to open the menu",
     "blender": (2, 80, 0),
     "category": "Mesh"
 }
