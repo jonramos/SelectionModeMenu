@@ -25,7 +25,7 @@ def add_hotkey():
     km = kc.keymaps.new(name='Mesh', space_type='EMPTY')
 
     kmi = km.keymap_items.new(
-        VIEW3D_OT_PIE_template_call.bl_idname, 'ACCENT_GRAVE', 'DOUBLE_CLICK', ctrl=False, shift=False)
+        VIEW3D_OT_PIE_template_call.bl_idname, 'Q', 'PRESS', ctrl=False, shift=False, alt=True)
     addon_keymaps.append((km, kmi))
 
 
